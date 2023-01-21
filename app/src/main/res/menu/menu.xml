@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+ <item
+     android:id="@+id/ajustes"
+     android:title=""
+     android:icon="@drawable/baseline_settings_24"
+app:showAsAction="always">
+     <menu>
+         <item
+             android:id="@+id/dificultad"
+             android:title="Dificultad"
+             android:icon="@drawable/baseline_arrow_upward_24"
+             app:showAsAction="ifRoom"></item>
+         <item
+             android:id="@+id/trucos"
+             android:title="Trucos"
+             android:icon="@drawable/baseline_remove_red_eye_24"
+             app:showAsAction="ifRoom"></item>
+     </menu>
+ </item>
+</menu>
